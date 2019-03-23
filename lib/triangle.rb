@@ -7,10 +7,8 @@ class Triangle
     @b = b
     @c = c
 
-    if ( a <= 0 || b <= 0 || c <= 0 )
+    unless ( a + b == c || a + c == b || b + c == a ) && ( a >= 0 && b >= 0 && c >= 0 )
       raise TriangleError
-    else ( a + b == c || a + c == b || b + c == a )
-      "Yay!"
     end
 
 
