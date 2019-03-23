@@ -9,7 +9,7 @@ class Triangle
     if side_one == 0 && side_two == 0 && side_three == 0
       raise TriangleError
     else side_one < 0 || side_two < 0 || side_three < 0
-      raise TriangleError 
+      raise TriangleError
     end
 
   end
