@@ -8,8 +8,6 @@ class Triangle
     @c = c
 
     if ( a == 0 && b == 0 && c == 0 ) || ( a < 0 || b < 0 || c < 0 ) || ( a + b != c || a + c != b )
-
-      ( a + b != c || a + c != b )
       raise TriangleError
     end
 
