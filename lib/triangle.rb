@@ -13,7 +13,7 @@ class Triangle
       nil
     end
 
-    self
+
 
   end
 
