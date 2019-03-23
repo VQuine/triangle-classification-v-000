@@ -1,5 +1,5 @@
 class Triangle
-  attr_accessor :a, :b, :c 
+  attr_accessor :a, :b, :c
   ### a = side 1 of triangle ### b = side 2 of triangle  ### c = side 3 of triangle
 
   def initialize(a, b, c)
